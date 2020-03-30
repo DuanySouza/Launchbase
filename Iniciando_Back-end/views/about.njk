@@ -1,0 +1,25 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Sobre - Duany Souza</title>
+{% endblock %}
+
+{% block content %}
+
+    <section id="wrapper">
+        <img src="{{about.avatar}}" alt="Sobre {{about.avatar}}">
+        <h1>{{about.name}}</h1>
+        <h2>{{about.role}}</h2>
+        <p>{{about.description}}</p>
+    </section>
+
+    <footer id="links-footer" class="links">
+        
+        {% for link in about.links %}
+        
+            <a href="{{link.url}}" target="_blank">{{link.name}}</a>
+
+        {% endfor %}
+    </footer>
+   
+{% endblock %}

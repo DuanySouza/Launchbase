@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header, main{
+    width: 940px;
+    margin: 37px auto;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.logo, .links{
+    display: inline-block;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.logo h1{
+    font-family: 'Noto Serif SC', serif;
+    letter-spacing: 5px;
+    color: #111111;
+}
+
+.links{
+    margin-left: 123px;
+}
+
+.links li{
+    display: inline-block;
+}
+
+.links a{
+    padding: 0 30px 0 0;
+    text-decoration: none;
+    font-size: 16px;
+    color: #111111;
+}
+
+.links a:hover{
+    color: #D54F44;
+}
+
+.bannerPink{
+    height: 366px;
+    background: #FBDFDB;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.bannerPink .revenue{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 66px;
+}
+
+.bannerPink .revenue .text{
+    margin-left: 60px;
+}
+
+.bannerPink .revenue .text h1{
+    font-size: 32px;
+}
+
+.bannerPink .revenue .text p{
+    opacity: 0.7;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 330px;
+    margin-top: 10px;
+}
+
+.bannerPink .revenue img{
+    margin: 0 auto;
+}
+
+.culinary_recipes h1 {
+    margin: 50px 0 20px;
+}
+
+.most_accessed{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.most_accessed .recipes_gallery .revenue_image img{
+    height: 140px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.revenur_info{
+    font-size: 14px;
+    color: #777777;
+}
+
+footer h3{
+    background: #EEEEEE;
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+    font-family: 'Noto Sans HK', sans-serif;
+    padding: 23px 0;
+}
+
+/* Sobre */
+
+.sobre p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*  BOX OVERLAY */
+
+.box_overlay{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.box{
+    background: #fff;
+    width: 660px;
+    height: 413px;
+    margin: 28vh auto;
+    position: relative;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.box .close-box{
+    cursor: pointer;
+    display: block;
+    margin-top: 50px;
+}
+
+/*  BOX OVERLAY ATIVO */
+
+.box_overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.box-content p{
+    font-family: 'Noto Sans HK', sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.close-box i{
+    font-family: 'Noto Sans HK', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #999999;
+}
+
+.box-content .revenue_image{
+    padding: 30px 0 15px;
+}
+
+.box-content img{
+    height: 200px;
+    width: 600px;
+    border-radius: 15px;
+}
+
