@@ -1,27 +1,9 @@
 {
   "instructors": [
     {
-      "id": 1,
-      "name": "Duany Candida de Souza",
-      "avatar_url": "https://source.unsplash.com/collection/3465564/250x250",
-      "birth": 908582400000,
-      "gender": "F",
-      "services": "Dança, Crossfit",
-      "created_at": 1584479295716
-    },
-    {
-      "id": "2",
-      "name": "Rafael Macedo ",
-      "avatar_url": "https://source.unsplash.com/collection/3465564/250x250",
-      "birth": 828489600000,
-      "gender": "M",
-      "services": "Musculação, Yoga",
-      "created_at": 1584479445593
-    },
-    {
       "id": 3,
       "name": "Daniela Candida",
-      "avatar_url": "https://source.unsplash.com/collection/3465564/250x250",
+      "avatar_url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60",
       "birth": 340416000000,
       "gender": "F",
       "services": "Yoga",
@@ -30,7 +12,7 @@
     {
       "id": 4,
       "name": "Duany",
-      "avatar_url": "https://source.unsplash.com/collection/3465564/250x250",
+      "avatar_url": "https://images.unsplash.com/photo-1470468969717-61d5d54fd036?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60",
       "birth": 908582400000,
       "gender": "F",
       "services": "Dança, Crossfit",
